@@ -1,16 +1,32 @@
 <!DOCTYPE html>
+
 <head>
-<link href="./style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link href="./styles.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-    <h1>To Do List</h1>
-    <input type="text" id="input" placeholder="Write something">
-    <span id="button">ADD</span>
-    <div id="conteiner" >
-      
-        <div>    Some    </div>
-    
+  <div class="swiper">
+  
+    <div class="swiper-wrapper">
+  
+      <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1532716377393-5ffbea548d05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"></div>
+      <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1554941426-e9604e34bc94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"></div>
+      <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1524680319993-fe837ad4bf2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"></div>
+      ...
     </div>
 
-    <script src="./script.js"></script>
+    <div class="swiper-pagination"></div>
+  
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+ 
+    <div class="swiper-scrollbar"></div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
 </body>
+
+</html>
